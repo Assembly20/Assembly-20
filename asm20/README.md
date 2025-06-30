@@ -1,13 +1,20 @@
-# Sample Hardhat Project
+# ASM20 
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+    _    ____  __  __ ____   ___  
+   / \  / ___||  \/  |___ \ / _ \ 
+  / _ \ \___ \| |\/| | __) | | | |
+ / ___ \ ___) | |  | |/ __/| |_| |
+/_/   \_\____/|_|  |_|_____|\___/ 
 
-Try running some of the following tasks:
+
+The first ERC-20 inspired token written in pure Yul — where gas meets precision.
+
+Use the commands down below to deploy:
 
 ```shell
 npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+npx hardhat ignition deploy ./contracts/asm20.sol
 ```
